@@ -1,14 +1,15 @@
-import "./App.css";
-
-import HomeContainer from "./containers/HomeContainer"
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import HomeContainer from './containers/HomeContainer'
+import HeaderContainer from './containers/HeaderContainer'
 function App() {
-
   return (
     <div className="App">
-      <h1>Delete Data from API</h1>
-      <HomeContainer/>
+      <HeaderContainer />
+     
+      <HomeContainer />
     </div>
-
   );
 }
 
